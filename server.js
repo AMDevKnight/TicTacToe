@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res) => { 
-    const data=`<h1><a href ="/hoverboard"> Hkoverboard</a>
+    const data=`<h1><a href ="/hoverboard"> Hoverboard</a>
     <br><a href ="/Tictactoe"> TicTacToe</a></h1>`
     res.send(data)
 })
