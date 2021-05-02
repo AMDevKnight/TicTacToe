@@ -8,22 +8,22 @@ app.get('/', (req, res) => {
 })
 
 app.get('/Tictactoe', (req, res) => {
-    res.sendFile(__dirname + '/public/Tictactoe/home.html')
+    res.sendFile('/public/Tictactoe/home.html')
 })
 app.get('/Tictactoe/js', (req, res) => {
-    res.sendFile(__dirname + '/public/Tictactoe/scripts.js')
+    res.sendFile('/public/Tictactoe/scripts.js')
 })
 
 app.get('/hoverboard', (req, res) => {
-    res.sendFile(__dirname + '/public/hoverboard/home.html')
+    res.sendFile('/public/hoverboard/home.html')
 })
 
 app.get('/hoverboard/css', (req, res) => {
-    res.sendFile(__dirname + '/public/hoverboard/styles.css')
+    res.sendFile('/public/hoverboard/styles.css')
 })
 
 app.get('/hoverboard/js', (req, res) => {
-    res.sendFile(__dirname + '/public/hoverboard/scripts.js')
+    res.sendFile('/public/hoverboard/scripts.js')
 })
 
 app.listen(process.env.PORT || 3000)
